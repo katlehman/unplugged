@@ -420,7 +420,7 @@ aside {
   .features article {
     display: flex;
     align-items: center;
-    flex-flow: columnn wrap;
+    flex-flow: column wrap;
     flex-basis: 50%
   }
 
@@ -495,7 +495,54 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
 
+  /* Header */
+  header {
+    padding: 15px 0;
+  }
+
+  /* Hero Area */
+  .hero-area h1 {
+    width: 80%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
+  /***** About *****/
+  .mission h1,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+
+  /***** FAQ *****/
+  .faq h2 {
+    width: 100%;
+  }
+  }
 }
 
 /* ==========================================================================
