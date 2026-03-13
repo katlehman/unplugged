@@ -92,11 +92,13 @@ textarea {
    body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
    }
 
    ul,
    ol {
     list-style: none;
+    padding: 0;
    }
 
    a {
@@ -153,6 +155,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -167,12 +170,14 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  color: #3a3a3a;
 }
 
 header nav {
   width: 60%;
   font-size: 1.125rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -186,6 +191,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #202322;
 }
 
 footer h4 {
@@ -205,11 +211,18 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+footer .social {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1.32rem;
+  background-color: #527158;
 }
 
 footer .social-icons p {
@@ -222,6 +235,11 @@ footer .copyright {
   margin: 20px 0;
 }
 
+footer .copyright p {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
 /***** Mobile Home Page Main Styles *****/
 
 /***** Hero Area *****/
@@ -236,6 +254,11 @@ footer .copyright {
 aside {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
 }
 
 .form-description h2 {
@@ -250,16 +273,28 @@ aside {
   padding: 20px 0;
 }
 
-.form .text {
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   padding: 1em;
-  font-size: 1.125rem;
-  font-weight: 500;
 }
 
-.form .button {
+input[type=button] {
+  width: 100%;
   padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
-
 /***** Features Section *****/
 
 .features {
@@ -290,6 +325,7 @@ aside {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 /***** Reviews Section *****/
@@ -297,6 +333,7 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -316,6 +353,7 @@ aside {
 .mission {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 /***** Map Section *****/
@@ -325,6 +363,7 @@ aside {
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -338,6 +377,7 @@ aside {
 .faq {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -357,7 +397,7 @@ aside {
   margin-bottom: 50px;
 }
 
-.faq-content h4 {
+.faq-content h3 {
   line-height: 1.5rem;
 }
 
@@ -506,6 +546,11 @@ aside {
     margin: 0;
   }
 
+  .form-description h2 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
   /* Features */
   .features article {
     display: flex;
@@ -519,6 +564,10 @@ aside {
   }
 
   /* Reviews */
+.reviews h2 {
+  width: 80%;
+}
+
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -526,6 +575,10 @@ aside {
 
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews article h3 {
+    width: 100%;
   }
 
   /* Footer */
@@ -547,7 +600,20 @@ aside {
     width: 100%;
   }
 
+  footer h4 {
+    font-size: 1.5rem;
+  }
+
+  footer p {
+    line-height: 1.125rem;
+  }
+
   /***** About Page *****/
+  .mission h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -582,7 +648,7 @@ aside {
     width: 100%;
   }
 
-  .faq h4,
+  .faq h3,
   .faq p {
     font-size: .875rem;
     line-height: .98rem;
@@ -626,11 +692,16 @@ aside {
   /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
+     max-width: 960px;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
+  }
+
+  aside .form-description h2 {
+    font-size: 1.875rem;
   }
 
   /* Features */
@@ -663,7 +734,7 @@ aside {
     font-size: 3rem;
   }
 
-  .faq h4,
+  .faq h3,
   .faq p {
     font-size: 1.125rem;
     line-height: 1.125rem;
