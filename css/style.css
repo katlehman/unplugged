@@ -84,67 +84,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /****** General Styles *****/
-   html {
-    font-size: 1rem;
-   }
+/****** General Styles *****/
+html {
+  font-size: 1rem;
+}
 
-   body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    color: #e2e3ed;
-    text-align: left;
-   }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
+}
 
-   ul,
-   ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   }
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-   a {
-    color: #e2e3ed;
-    text-decoration: none;
-   }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-   h1 {
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-    font-size: 2.25rem;
-    line-height: 2.69rem;
-    font-weight: 500;
-   }
+h1 {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.69rem;
+  font-weight: 500;
+}
 
-   h2 {
-    font-family: Poppins, sans-serif;
-    font-size: 1.875rem;
-    font-weight: 500;
-   }
+h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.875rem;
+  font-weight: 500;
+}
 
-   h3,
-   h4 {
-    font-family: Poppins, sans-serif;
-    font-size: 1.125rem;
-    font-weight: 500;
-    margin: 20px 0;
-   }
+h3,
+h4 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 20px 0;
+}
 
-   p {
-    font-size: .875rem;
-    line-height: 1.125rem;
-   }
+p {
+  font-size: .875rem;
+  line-height: 1.125rem;
+}
 
-   img {
-    width: 100%;
-   }
+img {
+  width: 100%;
+}
 
-   figure {
-    margin: 0;
-   }
+figure {
+  margin: 0;
+}
 
-   address {
-    font-style: normal;
-   }
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
   width: 90%;
@@ -251,6 +251,7 @@ footer .copyright p {
   font-weight: 500;
   font-size: 1rem;
 }
+
 /***** Mobile Home Page Main Styles *****/
 
 /***** Hero Area *****/
@@ -261,7 +262,7 @@ footer .copyright p {
   background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
   background-size: cover;
   min-height: 500px;
-  
+
 }
 
 /***** Aside *****/
@@ -313,6 +314,7 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
+
 /***** Features Section *****/
 
 .features {
@@ -543,8 +545,8 @@ input[type=button] {
   }
 
   header figure {
-  width: 30%;
-}
+    width: 30%;
+  }
 
   header nav {
     width: 20%;
@@ -584,11 +586,11 @@ input[type=button] {
   .form-description h2 {
     font-size: 1.5rem;
     line-height: 1.875rem;
-}
+  }
 
-.form h3 {
-  margin: 0;
-}
+  .form h3 {
+    margin: 0;
+  }
 
   /* Features */
   .features h2 {
@@ -607,9 +609,9 @@ input[type=button] {
   }
 
   /* Reviews */
-.reviews h2 {
-  width: 85%;
-}
+  .reviews h2 {
+    width: 85%;
+  }
 
   .reviews article {
     display: flex;
@@ -652,7 +654,7 @@ input[type=button] {
     line-height: 1.125rem;
   }
 
-   footer .copyright {
+  footer .copyright {
     width: 100%;
   }
 
@@ -687,7 +689,7 @@ input[type=button] {
   .faq .content-wrapper {
     justify-content: space-between;
   }
-  
+
   .faq-content {
     flex-basis: 45%;
   }
@@ -704,28 +706,29 @@ input[type=button] {
 }
 
 @media only screen and (min-width: 1200px) {
+
   /* Desktop styles */
-   .content-wrapper {
+  .content-wrapper {
     max-width: 960px;
   }
 
- h1 {
-  font-size: 3.75rem;
- }
+  h1 {
+    font-size: 3.75rem;
+  }
 
- h2 {
-  font-size: 2.25rem;
- }
+  h2 {
+    font-size: 2.25rem;
+  }
 
- h3,
- h4 {
-  font-size: 1.875rem;
- }
+  h3,
+  h4 {
+    font-size: 1.875rem;
+  }
 
- p {
-  font-size: 1.125rem;
-  line-height: 1.5rem;
- }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 
   /* Header */
   header {
@@ -740,7 +743,7 @@ input[type=button] {
   /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
-     max-width: 960px;
+    max-width: 960px;
   }
 
   aside .content-wrapper .form-description,
@@ -795,7 +798,7 @@ input[type=button] {
     font-size: 1.125rem;
     line-height: 1.125rem;
   }
-  }
+}
 
 
 /* ==========================================================================
