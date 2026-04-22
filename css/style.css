@@ -690,6 +690,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 55%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -800,6 +804,10 @@ input[type=button] {
 
   .mission h2 {
     font-size: 3rem;
+  }
+
+   .map figure {
+    padding-bottom: 46%;
   }
 
   /***** FAQ *****/
