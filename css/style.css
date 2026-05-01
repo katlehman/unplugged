@@ -331,6 +331,7 @@ input[type=button] {
 .features h3 {
   margin-bottom: 40px;
   font-size: 3.75rem;
+  text-align: center;
 }
 
 .features article {
