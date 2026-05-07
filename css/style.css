@@ -218,7 +218,12 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 footer .social {
@@ -253,7 +258,7 @@ footer .copyright {
 
 footer .copyright p {
   font-family: Poppins, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
 }
 
@@ -279,7 +284,7 @@ aside {
 }
 
 aside .form {
-  margin-top: 30px;
+  margin: 0;
 }
 
 .form-description h2 {
@@ -294,7 +299,7 @@ aside .form {
 }
 
 .form h3 {
-  padding: 20px 0;
+  padding-bottom: 20px 0;
 }
 
 input[type=text] {
@@ -341,7 +346,7 @@ input[type=button] {
 
 .features article {
   width: 63%;
-  margin: 30px 0;
+  margin: 0;
 }
 
 .features .features-item {
@@ -353,6 +358,7 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -365,6 +371,7 @@ input[type=button] {
 }
 
 .reviews h2 {
+  margin-top: 0;
   margin-bottom: 40px;
   line-height: 1.875rem;
 }
@@ -386,6 +393,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   background-color: #527158;
+}
+
+.mission h1 {
+  font-size: 1.75rem;
 }
 
 /***** Map Section *****/
@@ -411,6 +422,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+}
+
+.contact-section h2 {
+ font-size: 1.75rem;
 }
 
 .contact-content p {
@@ -624,6 +639,7 @@ footer .social {
 
   .form h3 {
     margin: 0;
+    padding: 20px 0;
   }
 
   /* Features */
@@ -645,6 +661,7 @@ footer .social {
   /* Reviews */
   .reviews h2 {
     width: 85%;
+    line-height: 120%;
   }
 
   .reviews article {
@@ -688,6 +705,14 @@ footer .social {
     line-height: 1.125rem;
   }
 
+  footer .social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -715,6 +740,7 @@ footer .social {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    font-size: 2.25rem;
   }
 
   .contact-content {
@@ -773,8 +799,18 @@ footer .social {
     padding: 15px 0;
   }
 
+  /* Footer */
+footer .content-wrapper {
+max-width: 960px;
+  }
+
+  footer .footer-content {
+    width: 100%;
+  }
+
   /* Hero Area */
   .hero-area h1 {
+    line-height: 4rem;
     width: 80%;
   }
 
@@ -791,10 +827,15 @@ footer .social {
 
   aside .form-description h2 {
     font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .form-description p {
     font-size: 1.125rem;
+  }
+
+  .form h3{
+    padding: 20px 0;
   }
 
   /* Features */
@@ -808,6 +849,7 @@ footer .social {
 
   /* Reviews */
   .reviews h2 {
+    margin: 0;
     padding-bottom: 50px;
   }
 
@@ -815,20 +857,41 @@ footer .social {
     width: 42%;
   }
 
-  /***** About *****/
-  .mission h1,
-  .contact-section .content-wrapper h2 {
-    width: 95%;
+  .reviews article h3 {
+    line-height: 2.25rem;
   }
 
-  .mission h2 {
+  /***** About *****/
+  .mission .content-wrapper {
+    max-width: 960px;
+  }
+
+  .mission h1 {
     font-size: 3rem;
+    line-height: normal;
+    width: 90%
   }
 
    .map figure {
     padding-bottom: 46%;
   }
+.contact-section .content-wrapper {
+  max-width: 960px;
+}
 
+ .contact-section .content-wrapper h2 {
+    font-size: 3rem;
+    line-height: normal;
+    width: 90%;
+  }
+
+footer .content-wrapper {
+  width: 100%
+}
+
+footer .footer-content {
+  width: 100%;
+}
   /***** FAQ *****/
   .faq h2 {
     width: 100%;
